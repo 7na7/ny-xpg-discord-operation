@@ -7,7 +7,7 @@ def get_status(client):
         embedtext = discord.Embed(
             title="VM List",
             color=0x00ff00,
-            description="NY-XPG Virtual Machines info"
+            description="NY-XPG Virtual Machines Info"
         )
         embedtext.set_author(name=client.user)
         embedtext.add_field(name="Hostname",value="NY-XPG-DNSCACHE",inline=False)
